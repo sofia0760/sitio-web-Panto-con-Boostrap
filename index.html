@@ -14,29 +14,39 @@
 <body>
     <header>
         <!-- Siempre se va a copiar esta barra de navegación SIEMPRE -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg bg-tranparente">
+            <div class="container">
+                <a class="navbar-brand logo" href="#">Panto</a>
+                <!-- Boton para el responsive  -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link active" aria-current="page" href="#">Furniture</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">About Us</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        
                     </ul>
                 </div>
+                <button class="bag-button">
+                    <i class="bi bi-handbag-fill"></i>
+                    <div class="counter-products">4</div>
+                </button>
             </div>
         </nav>
 
@@ -45,25 +55,28 @@
             <div id="carouselHeroSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <h2>MAKE YOUR interior More Minimalistic & Modern1</h2>
+                        <h2>Make your interior More Minimalistic & Modern</h2>
                         <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
                     </div>
                     <div class="carousel-item">
-                        <h2>MAKE YOUR interior More Minimalistic & Modern1</h2>
+                        <h2>Make your interior More Minimalistic & Modern</h2>
                         <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
                     </div>
                     <div class="carousel-item">
-                        <h2>MAKE YOUR interior More Minimalistic & Modern1</h2>
+                        <h2>Make your interior More Minimalistic & Modern</h2>
                         <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
                     </div>
                 </div>
             </div>
+
+            <form action="#">
+                <input type="text" placeholder="search - furniture">
+                <button><i class="bi bi-search"></i></button>
+            </form>
+
         </div>
 
-        <form action="#">
-            <input type="text" placeholder="search - furniture">
-            <button><i class="bi bi-search"></i></button>
-        </form>
+
 
     </header>
     <main></main>
@@ -73,6 +86,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

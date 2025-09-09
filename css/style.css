@@ -2,7 +2,7 @@
 
 /* 1.Tipografias */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -13,6 +13,7 @@
 /* 3.Estilos generales */
 h1,h2,h3,h4,h5,h6{
     font-family: "Montserrat Underline", sans-serif;
+   
 }
 p,a,button,li,label,input,select,textarea,span{
     font-family: "Raleway", sans-serif;
@@ -37,13 +38,116 @@ p,a,button,li,label,input,select,textarea,span{
 header{
     width: 100%;
     position: relative;
-    height: 100vh;
+    height: 170vh;
     background: url(../img/Rectangle\ 1441.png);
     background-size: cover;
     /* background-position: center; */
     background-position-y:bottom;
     background-position-x:center ;
+    padding-top: 40px;
 }
+bg-transparente{
+    background: transparent;
+}
+header nav .logo{
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 28px;
+    transition: .5s;
+
+}
+header nav .logo:hover{
+    color: var(--white-color);
+    transform: scale(1.2);
+}
+#navbarNav li a{
+    color: var(--white-color);
+    font-size: var(--fs-text);
+    margin: 0 15px;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+
+}
+#navbarNav li a:hover{
+    border-bottom: 1px solid var(--white-color);
+}
+header .bag-button{
+    background: transparent;
+    border: none;
+    color: var(--white-color);
+    font-size: 26px;
+    position: relative;
+}
+header .bag-button .counter-products{
+    width: 26px;
+    height: 26px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: var(--fs-text);
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+}
+#hero{
+    width: 100%;
+    text-align: center;
+    padding: 90px;
+}
+#hero h2{
+    font-size: var(--fs-title1);
+    color: var(--white-color);
+    font-weight: 700;
+}
+#hero p{
+    color: var(--white-color);
+    font-size: var(--fs-title3);
+     padding: 40px 350px;
+
+
+}
+#hero form{
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+#hero form input{
+
+    border-radius: 40px;
+    padding: 15px 60px 15px 20px;
+    width: 370px;
+    font-size: var(--fs-title4 );
+    border: 2px solid #fff;
+    background: #ffffff4b;
+    color: var(--white-color);
+    outline: none;
+    
+}
+#hero form input::placeholder{
+    color: var(--white-color);
+}
+#hero form button{
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    color: var(--white-color);
+    position: absolute;
+    right: 7%;
+    top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* 6.ESTLOS RSPONSIVE - Tablet- */
 @media screen and (min-width:768px) and (max-width: 1000px){
