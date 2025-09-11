@@ -594,8 +594,61 @@ header .bag-button .counter-products {
     color: #0d1b39;
 }
 
+/* ESTILOS DEL FOOTER */
+footer {
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    background: #f7f7f7;
+}
 
+footer .logo {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 
+footer .col-footer a {
+    text-decoration: none;
+    color: var(--dark-color);
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer h2 {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+footer p {
+    font-size: var(--fs-text);
+    color: var(--dark-color);
+    width: 310px;
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+footer .info {
+    padding-top: 60px;
+}
+
+footer .info a {
+    margin-right: 20px;
+}
+footer .row-footer{
+    margin-top: 70px;
+}
 
 
 
@@ -616,6 +669,13 @@ header .bag-button .counter-products {
 
 /* 6.ESTLOS RSPONSIVE - Tablet- */
 @media screen and (min-width:768px) and (max-width: 1000px) {}
+
+#hero p {
+    padding: 20px 100px;
+}
+header {
+    height: 130vh;
+}
 
 /* 7.ESTILOS RESPONSIVE - SMARTPHONE */
 @media screen and (min-width:320px) and (max-width: 767px) {}
