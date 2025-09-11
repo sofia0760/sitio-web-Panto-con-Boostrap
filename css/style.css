@@ -431,6 +431,87 @@ header .bag-button .counter-products {
 }
 
 
+/* seccion de materials */
+#materials {
+    width: 100%;
+    position: relative;
+    padding: 140px 0;
+}
+#materials .cont-info h3 {
+    color: var(--primary-color);
+    font-size: var(--fs-title4);
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 50px;
+    letter-spacing: 3px;
+
+}
+#materials .cont-info h2 {
+    font-size: var(--fs-title2);
+    font-weight: 700;
+    color: var(--dark-color);
+    width: 350px;
+    margin-left: 50px;
+    
+    
+}
+#materials .cont-info p {
+    font-size: var(--fs-text);
+    color: var(--dark-color);
+    margin-top: 20px;
+    width: 460px;
+    margin-left: 50px;
+    
+}
+#materials a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 50px;
+
+}
+
+#materials a i {
+    margin-left: 4px;
+    transition: .5s;
+}
+
+#materials a:hover i {
+    margin-left: 15px;
+}
+#materials .cont-img::before {
+    content: "";
+    width: 270px;
+    height: 400px;
+    background:#f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: 80px;
+    right: -491px;
+    border-radius: 20px;
+
+}
+#materials .cont-img {
+    position: relative;
+    left: 15px;
+}
+
+#materials .cont-img2 img{
+    right: 0;
+    position: absolute;
+    top: 280px;
+    border-radius: 20px;
+}
+#materials .cont-img2 img {
+    box-shadow: 0  16px 25px -10px #c49f72;
+}
+
+
+
+
+
+
+
+
 
 
 
